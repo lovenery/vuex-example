@@ -15,4 +15,11 @@ npm run dev
 npm run build
 ```
 
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## Notes
+
+- What is Vuex?: Vuex is a state management pattern + library for Vue.js applications.
+- Central Store: a centralized store for all the components in an application
+- Using Computed Properties
+- Getters: a getter
+- Mutations: a setter
+  - Using store state in a component simply involves returning the state within a `computed property`, because the store state is reactive. Triggering changes simply means committing mutations in component methods.
