@@ -1,6 +1,6 @@
 # vuex-practice
 
-> A Vue.js project
+> A vuex practice
 
 ## Build Setup
 
@@ -23,3 +23,6 @@ npm run build
 - Getters: a getter
 - Mutations: a setter
   - Using store state in a component simply involves returning the state within a `computed property`, because the store state is reactive. Triggering changes simply means committing mutations in component methods.
+- Actions: Actions are similar to mutations, the differences being that:
+  - Instead of mutating the state, actions commit mutations.
+  - Actions can contain arbitrary asynchronous operations.
